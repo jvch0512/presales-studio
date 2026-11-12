@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pre-Sales Studio</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="brand"><span class="dot"></span>Pre-Sales Studio <small>questionnaire to client-ready security proposal</small></div><div id="ai" class="chip">AI: checking</div></header>
+<main>
+  <aside>
+    <h2>Client</h2>
+    <div id="samples" class="samples"></div>
+    <form id="form">
+      <label>Name<input id="name" maxlength="80" required></label>
+      <div class="row"><label>Industry<select id="industry"></select></label><label>Language<select id="lang"><option value="en">English</option><option value="es">Español</option></select></label></div>
+      <div class="row"><label>Employees<input id="employees" type="number" min="1" required></label><label>Revenue (EUR)<input id="revenueEur" type="number" min="10000" required></label></div>
+      <div class="row"><label>Cloud share %<input id="cloud" type="number" min="0" max="100" required></label><label>Incidents (3y)<input id="incidents3y" type="number" min="0" required></label></div>
+      <label>Annual security budget (EUR)<input id="budgetEur" type="number" min="0" required></label>
+      <fieldset><legend>Regulations</legend><div id="regs" class="regs"></div></fieldset>
+      <h2>Current controls</h2>
+      <div id="controls"></div>
+      <label class="check"><input id="useai" type="checkbox" checked> Polish the summary with Claude</label>
+      <button type="submit" class="go">Generate proposal</button>
+    </form>
+  </aside>
+  <section id="out" hidden>
+    <div id="kpis" class="kpis"></div>
+    <p id="note" class="note"></p>
+    <iframe id="frame" title="Proposal preview"></iframe>
+    <p><a id="open" target="_blank" rel="noopener">Open in a new tab to print or save as PDF</a></p>
+  </section>
+  <p id="error" class="error" hidden></p>
+</main>
+<script src="app.js" type="module"></script></body></html>
