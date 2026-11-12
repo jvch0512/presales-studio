@@ -1,0 +1,2 @@
+{ "name": "Clínica Mediterránea", "industry": "healthcare", "employees": 240, "revenueEur": 18000000, "regulations": ["GDPR", "ISO27001", "ENS"], "cloudShare": 0.4, "incidents3y": 1, "budgetEur": 180000, "lang": "es",
+  "controls": { "assets": 1, "vulnmgmt": 1, "pentest": 0, "mfa": 1, "pam": 0, "emailsec": 1, "awareness": 1, "segmentation": 0, "websec": 0, "edr": 1, "siem": 0, "irplan": 0, "retainer": 0, "backup": 2, "drplan": 1 } }

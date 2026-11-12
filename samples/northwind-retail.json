@@ -1,0 +1,2 @@
+{ "name": "Northwind Retail Group", "industry": "retail", "employees": 850, "revenueEur": 95000000, "regulations": ["NIS2", "PCI-DSS", "GDPR"], "cloudShare": 0.7, "incidents3y": 2, "budgetEur": 400000, "lang": "en",
+  "controls": { "assets": 2, "vulnmgmt": 2, "pentest": 1, "mfa": 2, "pam": 1, "emailsec": 2, "awareness": 1, "segmentation": 1, "websec": 2, "edr": 2, "siem": 1, "irplan": 1, "retainer": 0, "backup": 2, "drplan": 1 } }
